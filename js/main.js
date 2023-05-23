@@ -1,20 +1,6 @@
 const searchBtn = document.getElementById("searchBtn");
 
 
-var request = new XMLHttpRequest();
-
-request.open('GET', 'http://intergalacticdb.me/api/characters');
-
-request.onreadystatechange = function () {
-  if (this.readyState === 4) {
-    console.log('Status:', this.status);
-    console.log('Headers:', this.getAllResponseHeaders());
-    console.log('Body:', this.responseText);
-  }
-};
-
-request.send();
-/*
 searchBtn.addEventListener("click", (e) => {
 	const search = document.getElementById("searchId").value;
 	if (search != "") {
@@ -99,4 +85,3 @@ async function getCharacter(id) {
 		}
 	})
 }
-*/

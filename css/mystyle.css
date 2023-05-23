@@ -159,7 +159,7 @@ img {
         width: 92%;
     }
     .card {
-        width: 35%;
+        width: 25%;
     }
 }
 @media (min-width: 1200px) {
@@ -179,10 +179,16 @@ img {
         margin-right: 1.5rem;
     }
     h3 {
-        font-size: 2.2rem ;
+        font-size: 1.5rem ;
     }
     h4 {
-        font-size: 2rem;
+        font-size: 1rem;
+    }
+    .cards {
+        width: 80%;
+    }
+    .card {
+        width: 25%;
     }
 }
 @media (min-width: 2000px) {
